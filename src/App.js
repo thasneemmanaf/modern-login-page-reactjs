@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import Login from "./components/Login";
+import wsConnect from "./wsConnect";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [rate, setRate] = useState();
+	const [timestamp, setTimestamp] = useState();
+
+	// Connect to websocket
+	useEffect(() => {
+		wsConnect(setRate, setTimestamp);
+	}, []);
+
+	return (
+		<div className="App">
+			<Login price={rate} timestamp={timestamp} />
+		</div>
+	);
 }
 
 export default App;

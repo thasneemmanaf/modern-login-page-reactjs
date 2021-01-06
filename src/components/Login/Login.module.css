@@ -1,0 +1,18 @@
+.left {
+	background-image: url("../../images/pic2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	height: 100vh;
+}
+
+.loginAlert {
+	margin: 15rem 10rem;
+}
+
+@media screen and (max-width: 960px) {
+	.left {
+		display: none;
+	}
+}

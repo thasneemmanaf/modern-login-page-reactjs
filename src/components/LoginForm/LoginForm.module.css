@@ -1,0 +1,239 @@
+.login {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	margin: 1rem 2rem 0 2rem;
+	max-height: 100vh !important;
+}
+
+.homeIconContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.homeIcon {
+	font-size: 2.5rem !important;
+	color: #00b9ff;
+}
+
+.welcome {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+	color: rgb(68, 93, 136);
+	font-family: "karla";
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 32px;
+	width: 100%;
+}
+
+.signUpBtn {
+	border-color: rgba(0, 0, 0, 0);
+	border-style: outset;
+	color: rgb(0, 165, 224);
+	line-height: 24px;
+	font-weight: 500;
+	font-size: medium;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+.signUpBtn:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 0.2s ease-in-out;
+}
+
+.login form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.signUp {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+	color: rgb(68, 93, 136);
+	font-family: "karla";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 32px;
+	width: 100%;
+}
+
+.login form input {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(212, 214, 217);
+	border-style: solid;
+	color: rgb(47, 68, 106);
+}
+
+.loginBtn {
+	width: 104%;
+	border-color: rgb(0, 165, 224);
+	height: 50px;
+	font-size: large;
+	color: white;
+	background-color: #00b9ff;
+	border-radius: 5px;
+	margin: 6px 0;
+	padding: 0 10px;
+}
+
+.loginBtnValue {
+	width: 100%;
+	position: relative;
+	background-color: #00b9ff;
+}
+
+.lockIcon {
+	position: absolute;
+	left: 15px;
+	top: -2px;
+	background-color: #00b9ff;
+}
+
+.loginBtn:hover {
+	cursor: pointer;
+	transform: scale(1.01);
+	transition: all 0.2s ease-in-out;
+}
+
+.forgotPassword {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 100%;
+	margin: 1px 0;
+}
+
+.forgotPasswordBtn {
+	border-color: rgba(0, 0, 0, 0);
+	border-style: outset;
+	color: rgb(0, 165, 224);
+	line-height: 24px;
+	font-weight: 500;
+	font-size: medium;
+	text-decoration: underline;
+}
+
+.forgotPasswordBtn:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 0.2s ease-in-out;
+}
+
+.loginOption {
+	line-height: 24px;
+	text-align: left;
+	color: rgb(26, 59, 116);
+	font-family: "karla";
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.loginOptionContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	letter-spacing: 0.256px;
+	line-height: 24px;
+	text-align: center;
+	padding: 10px;
+	margin: 2px 0;
+	box-sizing: border-box;
+}
+
+.loginOptionContainer button {
+	padding: 3px 30px;
+	background-position: center;
+	font-size: 16px;
+	line-height: 24px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-family: "karla";
+	font-weight: 600;
+	text-align: center;
+}
+
+.twitterBtn {
+	align-items: flex-start;
+	border-color: #3b5998;
+	border-style: solid;
+	color: #3b5998;
+}
+.fbBtn {
+	align-items: flex-start;
+	border-color: #4285f4;
+	border-style: solid;
+	color: #4285f4;
+}
+
+.appleBtn {
+	border-color: #0e0f0f;
+	border-style: solid;
+}
+
+.loginOptionContainer button:hover {
+	border-color: #3b5998;
+	transform: scale(1.1);
+	transition: all 0.2s ease-in-out;
+}
+
+.icon {
+	font-size: 40px;
+}
+
+.privacyPolicy {
+	color: rgb(68, 93, 136);
+	font-family: "karla";
+	margin-top: 2px;
+}
+
+.privacyPolicy span {
+	color: rgb(0, 165, 224);
+	text-decoration: underline;
+}
+
+.privacyPolicy span:hover {
+	cursor: pointer;
+}
+
+.results {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 18px 0;
+}
+
+.results h2 {
+	color: rgb(0, 165, 224);
+	font-family: "karla";
+	font-weight: 800;
+	font-size: 1.8rem;
+	margin: 0px 10px;
+}
+
+.results span {
+	color: #00b9ff;
+	font-family: "karla";
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+.timestamp {
+	color: rgb(68, 93, 136);
+	font-family: "karla";
+	font-size: 1rem;
+}
